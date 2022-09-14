@@ -142,7 +142,7 @@ H5P.GuessTheAnswer = (function () {
       '<div class="media"></div>' +
       '<button class="show-solution-button">' + params.solutionLabel + '</button>' +
       '<span class="empty-text-for-nvda">&nbsp;</span>' +
-      '<div class="solution-text hidden" tabindex="-1">' + params.solutionText + '</div>';
+      '<div class="solution-text hidden" aria-live="polite"></div>';
 
     return element;
   };
